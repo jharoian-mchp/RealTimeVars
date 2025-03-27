@@ -19,6 +19,7 @@
     THIS SOFTWARE.
 */
 #include "mcc_generated_files/system/system.h"
+#include <stdio.h>
 
 /*
     Main application
@@ -27,6 +28,8 @@
 int main(void)
 {
     SYSTEM_Initialize();
+    
+    printf("\n\r[Reset]\n\r");
 
     while(1)
     {
