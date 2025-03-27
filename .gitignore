@@ -24,6 +24,5 @@
 **/*.X/*mc3.bak*
 
 # Large Files
-*.exe
 *.zip
-*.pdf
+
